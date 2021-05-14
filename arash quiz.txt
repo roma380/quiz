@@ -1,0 +1,186 @@
+1. Var ball =createSprite(200,200); What will be output of above code
+
+ball sprite will be created at 200,200 position with random width and height
+ball sprite will be created at 0,0 position with width and height as 200
+ball sprite will be created at 200,200 position with width and height as 100, 100
+It will throw an error since the width and height are not mentioned
+2. In the following piece of code, the ball would go in which direction by means of velocities given to it?
+
+
+
+Top left corner
+Bottom left corner
+Bottom right corner
+Top right corner
+3. Complete the following statement: In a program function draw() is called ___________
+
+For every frame
+For every sprites of the game
+None of the above
+Only once
+4.Which of the following is NOT a Attributes of Iron Man?
+
+Jarvis
+Flying Around
+Battery
+Stabilizer
+5.Which of the following are the Properties of a Ball object in the Pong game
+
+All of the Above
+Width
+Y-Position
+X – Position
+
+6.Code.org has the predefined blueprint for creating objects called as _ ?
+
+Sprites
+drawSprites()
+Game Lab
+Class
+
+
+
+7. What will be the output of the following code?
+var num =1;
+if(num>10){
+console.log(1)}
+else{console.log(10)}
+
+
+0
+10
+Undefined
+1
+8. What will be the output of the following snippet of code?
+
+var a=10,b=20,c=30;
+if((a===10)||(b==10)||(c==10))
+{console.log(a)}
+
+Null
+10
+20
+30
+9. “||” (OR) logic can be used in which of the following cases?
+
+a and b
+When we want to check if ALL one of the conditions are true among combined conditions
+When we want to check if ONLY one of the conditions is true among combined conditions
+When we want to combine more than one if conditions
+10.Spaceship in the game can have which of the following movement(s) ?
+
+Sequential Movements
+Conditional Movements
+Both a & b
+None of the above
+11.As mentioned in the flowchart in our slides, in which scenario do we check the connection of the bulb ?
+
+When Switch is ON
+When Bulb is working
+Before Replacing Bulb
+When Bulb is burned out
+12.Which coding language makes website more interactive ?
+
+Javascript
+CSS
+Java
+HTML
+
+13. Which of the following are the types of collision that can be performed on sprites?
+
+bounceOff
+bounce
+collide
+All of the above
+14. Following is the code snippet to create the pong game, check the code and find error,  if any.
+
+function draw(){
+background("white");
+playerPaddle.y=World.mouseY;
+createEdgeSprites();
+ball.bounceoff(playerPaddle);
+ball.bounceoff(computerPaddle);
+ball.bounceoff(edges);
+drawsprites();
+}
+
+No error in code snippet
+Whole code is wrong
+Ball.bounceOff(edges) should be immediately after createEdgeSprites();
+Ball should bounce off only from top edge and bottom edge
+15. In the pong game, when the AI is added to computer paddle, what flaw is added to the game?
+
+No flaw added
+The ball behaves improperly and goes off the canvas
+The computer paddle behaves improperly and goes off the canvas
+The ball and computer paddle start tracking the position of each other give effect of AI
+16.What is the behaviour of the Player Paddle
+
+it moves left to right
+It follows the ball movement
+It moves with the mouse movement
+None of the above
+17.What is the behaviour of the Computer Paddle
+
+it moves with player paddle
+It moves with the mouse movement
+It follows the ball movement
+it moves left to right
+18.How do we assign the yPosition to the computer paddle?
+
+compuerPaddle.yPosition = ball.y
+compuerPaddle.y = playerpaddle.y
+compuerPaddle.yPosition = ball.yPosition
+compuerPaddle.y = ball.y
+ 
+
+multiplayer car racing game 
+
+
+
+
+1. To store the data of all cars of the players which data type are we using in the program?
+Objects
+Strings
+Arrays
+Numerics
+2. What is a game camera?
+
+A real camera attached behind the player to capture the player movements when they are playing
+A virtual camera in the game which allows us to look at the game from different positions and angles
+A camera which captures virtual reality
+None of these
+3. Can you find the prefect fit for the positions of camera, to set the positions for each player differently in the game?
+
+
+if(index ===player.index){
+cars[index-1].shapeColor="red";
+camera.position.x = displaywidth/2; camera.position.y = cars[index-1].y
+camera.position.x = displayWidth/2; camera.position.y = cars[index-1].y
+camera.position.X = displayWidth/2; camera.position.Y = cars[index-1].y
+camera.position.X = displaywidth/2; camera.position.Y = cars[index-1].y
+
+
+4. What is the measure you will use in console to find out the distance traveled by each car on the racing track?
+
+player.distance
+player.y
+camera.position.y
+allPlayers[plr].distance
+5. Which of the below parameters are a right fit to the image() function?
+
+image(img,dx,dy,width,height)
+image(img,x,y,dx,dy)
+image(img,x,y,width,height)
+image(x,y,width,height)
+6. What does resetting playerCount and gameState do?
+
+multiplayer-64934
+-gameState:2
+-playerCount:4
+
+playerCount = 0 gameState = 1
+playerCount = 1 gameState =1
+playerCount = null gameState = null
+playerCount = 0 gameState = 0
+
